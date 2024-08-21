@@ -4,6 +4,23 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <nav className="navbar">
+      <ul>
+        <li>
+          <NavLink to="/" exact>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/directors">
+            Directors
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/actors">
+            Actors
+          </NavLink>
+        </li>
+      </ul>
     
     </nav>
     );
